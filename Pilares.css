@@ -1,0 +1,218 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url(https://i.pinimg.com/originals/0c/bf/2f/0cbf2f5c3fb37d033c0bc791ae196dbb.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 920px;
+}
+
+header{
+  display: flex;
+  background: rgb(195, 29, 104);
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+h1 {
+  display: flex;
+  font-family: fantasy;
+  padding: 10px 10px;
+  flex-direction: row;
+  text-decoration: underline;
+}
+
+.cartas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+
+
+}
+
+img {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 20px rgb(199, 233, 169);
+
+}
+
+h2 {
+  font-size: 1em;
+  font-family: sans-serif, "roboto";
+  text-align: center;
+  color: rgb(204, 19, 68);
+  text-decoration: underline;
+
+}
+
+.pilar1 img:hover {
+
+  height: 200px;
+  width: 200px;
+}
+
+.pilar2 img:hover {
+
+  height: 200px;
+  width: 200px;
+}
+
+.pilar3 img:hover {
+
+  height: 200px;
+  width: 200px;
+}
+
+.pilar4 img:hover {
+
+  height: 200px;
+  width: 200px;
+}
+
+.pilar5 img:hover {
+
+  height: 200px;
+  width: 200px;
+}
+
+.pilar6 img:hover {
+
+  height: 200px;
+  width: 200px;
+}
+
+.pilar7 img:hover {
+
+  height: 200px;
+  width: 200px;
+}
+
+.pilar8 img:hover {
+
+  height: 200px;
+  width: 200px;
+}
+
+.pilar9 img:hover {
+
+  height: 200px;
+  width: 200px;
+}
+
+.pilar1 {
+  flex-direction: column;
+}
+
+.pilar2 {
+  flex-direction: column;
+}
+
+.pilar3 {
+  flex-direction: column;
+}
+
+.pilar4 {
+  flex-direction: column;
+}
+
+.pilar5 {
+  flex-direction: column;
+}
+
+.pilar6 {
+  flex-direction: column;
+}
+
+.pilar7 {
+  flex-direction: column;
+}
+
+.pilar8 {
+  flex-direction: column;
+  padding-top: 45px;
+}
+
+.pilar9 {
+  flex-direction: column;
+  padding-top: 45px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+
+}
+
+.banner{
+
+  position: absolute;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  width: 700px;
+  height: 300px;
+  margin-top: 60px
+}
+
+.rengoku-footer{
+  position: relative;
+  display: flex;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  right: 300px;
+  top: 90px;
+  height: 300px;
+  width: 300px;
+  padding-right: 20px;
+  box-shadow: none;
+
+}
+
+.kanao {
+
+  position: relative;
+  display: flex;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  left: 450px;
+  top: 90px;
+  height: 300px;
+  width: 200px;
+  padding-left: 20px;
+  box-shadow: none;
+
+}
+
+.boton {
+  display: flex;
+  position: relative;
+  height: 30px;
+}
+
+button {
+  position: relative;
+  font-size: 20px;
+  font-family: fantasy;
+  border-radius: 5px 5px;
+  border-color: rgb(6, 106, 55);
+  background: rgb(93, 3, 9);
+  width: 200px;
+  top: 390px;
+  right: 270px;
+}
+
+button:hover {
+  background: rgb(12, 111, 10);
+  border-color: rgb(93, 3, 9);
+}
